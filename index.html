@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Personal portfolio of Shiv Devidas Rathod, a first-year B.Tech Computer Science student specializing in AI.">
+  <title>Shiv Devidas Rathod | Portfolio</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header class="site-header">
+    <nav class="navigation" aria-label="Main navigation">
+      <a class="logo" href="#home">Shiv Rathod</a>
+      <div class="nav-links">
+        <a href="#home">Home</a>
+        <a href="#about">About</a>
+        <a href="#skills">Skills</a>
+        <a href="#projects">Projects</a>
+        <a href="#contact">Contact</a>
+      </div>
+    </nav>
+  </header>
+
+  <main>
+    <section class="hero" id="home">
+      <div class="hero-inner">
+        <div class="hero-copy">
+          <h1>Welcome to My Portfolio<br><span>Shiv Devidas Rathod</span></h1>
+          <p>I’m a first-year B.Tech student in Computer Science (AI specialization) at NIAT × Alard University. I’m building my foundations in programming and web development while exploring generative AI.</p>
+          <a class="contact-button" href="#contact">Contact Me</a>
+        </div>
+        <img class="profile-photo" src="assets/shiv-rathod.jpg" alt="Profile photo of Shiv Devidas Rathod">
+      </div>
+    </section>
+
+    <section class="about section-white" id="about">
+      <div class="section-inner about-inner">
+        <div class="about-copy">
+          <h2 class="section-title">About Me</h2>
+          <p>I’m a first-year B.Tech student in Computer Science with an AI specialization at NIAT × Alard University. I have learned Python and the fundamentals of web development with HTML and CSS. I have also explored generative AI tools through a learning session and participated in two IoT workshops.</p>
+          <p>I’m interested in exploring how AI works, learning new technologies, and building AI models. My goal is to become a capable software engineer and continue growing alongside the evolving field of AI.</p>
+          <div class="education"><strong>Education</strong><span>B.Tech, Computer Science (AI Specialization) · First Year</span><span>NIAT × Alard University</span></div>
+        </div>
+      </div>
+    </section>
+
+    <section class="skills" id="skills">
+      <div class="section-inner">
+        <h2 class="section-title">Skills</h2>
+        <div class="skill-grid">
+          <article class="skill-card"><span class="skill-icon code-icon" aria-hidden="true">&lt;/&gt;</span><h3>HTML</h3></article>
+          <article class="skill-card"><span class="skill-icon css-icon" aria-hidden="true">◉</span><h3>CSS</h3></article>
+          <article class="skill-card"><span class="skill-icon python-icon" aria-hidden="true">Py</span><h3>Python</h3></article>
+          <article class="skill-card"><span class="skill-icon cpp-icon" aria-hidden="true">C++</span><h3>C++</h3></article>
+          <article class="skill-card"><span class="skill-icon c-icon" aria-hidden="true">C</span><h3>C</h3></article>
+        </div>
+      </div>
+    </section>
+
+    <section class="projects section-white" id="projects">
+      <div class="section-inner">
+        <h2 class="section-title">Projects</h2>
+        <div class="project-grid">
+          <article class="project-card">
+            <div class="project-image"><img class="project-art" src="assets/simple-calculator.svg" alt="Illustration of a simple calculator interface"></div>
+            <div class="project-copy"><h3>Simple Calculator</h3><p>A beginner-friendly Python program that performs basic arithmetic, built as an early programming exercise.</p></div>
+          </article>
+          <article class="project-card">
+            <div class="project-image"><img class="project-art" src="assets/kalasetu-webpage.svg" alt="Illustration of the Kalasetu webpage"></div>
+            <div class="project-copy"><h3>Kalasetu Webpage</h3><p>A webpage created with HTML and CSS for a Hacktober hackathon.</p></div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="contact" id="contact">
+      <div class="section-inner contact-inner">
+        <div class="contact-info">
+          <h2 class="section-title">Contact</h2>
+          <p><span class="contact-icon" aria-hidden="true">●</span> Shiv Devidas Rathod</p>
+          <p><span class="contact-icon" aria-hidden="true">✉</span> <a href="mailto:shivrathod531@gmail.com">shivrathod531@gmail.com</a></p>
+          <p><span class="contact-icon location-icon" aria-hidden="true">●</span> Hinjewadi Phase 1, Maruji Road<br><span class="location-indent">Pune</span></p>
+        </div>
+        <form class="contact-form" action="mailto:shivrathod531@gmail.com" method="post" enctype="text/plain">
+          <div class="form-row">
+            <label><span class="visually-hidden">Full Name</span><input type="text" name="full-name" placeholder="Full Name" autocomplete="name" required></label>
+            <label><span class="visually-hidden">Email Address</span><input type="email" name="email" placeholder="Email Address" autocomplete="email" required></label>
+          </div>
+          <label><span class="visually-hidden">Subject</span><input type="text" name="subject" placeholder="Subject" required></label>
+          <label><span class="visually-hidden">Message</span><textarea name="message" rows="4" placeholder="Message" required></textarea></label>
+          <button class="submit-button" type="submit">Submit</button>
+        </form>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="footer-inner">
+      <p>© 2026 Shiv Devidas Rathod. All rights reserved.</p>
+      <div class="social-links">
+        <a href="https://www.linkedin.com/in/shiv-rathod-989081422" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn profile">in</a>
+        <a href="https://github.com/shivrathod2008" target="_blank" rel="noopener noreferrer" aria-label="GitHub profile">GH</a>
+      </div>
+    </div>
+  </footer>
+</body>
+</html>
